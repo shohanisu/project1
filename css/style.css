@@ -221,8 +221,8 @@ nav .nav-item li a:hover{
 }
 
 #project-part .images{
-    justify-content: center;
     margin-left: 8%;
+    box-shadow: #0f1b1a;
 }
 
 /* project-part end */
@@ -231,9 +231,103 @@ nav .nav-item li a:hover{
 #video-part{
     margin-top: 10px;
     background: #9bc7e3;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#video-part .container h1{
+    margin-top: 10px;
+    background: #9bc7e3;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+#video-part .container video{
+    margin-top: 10px;
+}
+#video-part .container video iframe{
+    margin-bottom: 10px;
+}
+
+
+/* video-part end */
+
+
+/* contact-part start */
+
+#contact-part{
+    margin-top: 10px;
+    background: #50575c;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#contact-part  .container  h1{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+#contact-part .info{
+    margin-bottom: 10px;
+}
+
+#contact-part p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 
+#contact-part span{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #0b0b0b;
+    transition: .4s;
+}
 
-/* video-part end */
+#contact-part span:hover{
+    color: #fffdfd;
+    background: #0b0b0b;
+    border-radius: 5px;
+}
+
+#contact-part h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #0b0b0b;
+    margin-left: 20px;
+}
+
+
+#contact-part a{
+    list-style: none;
+    color: #0b0b0b;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+    padding-left: 40px;
+}
+
+#contact-part a:hover{
+    color: #fffefe;
+    background: #0b0b0b;
+    border-radius: 5px;
+}
+
+/* contact-part end */
